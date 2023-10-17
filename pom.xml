@@ -4,14 +4,14 @@
 
     <groupId>org.example</groupId>
     <artifactId>example</artifactId>
-    <version>0.1.0</version>
+    <version>0.1.1-SNAPSHOT</version>
     <name>My Demo Project</name>
 
     <scm>
         <url>https://github.com/Jaydeep45/demo.git</url> <!-- GIT URL -->
         <connection>scm:git:https://github.com/Jaydeep45/demo.git</connection> <!-- URL HTTP de clone do projeto -->
         <developerConnection>scm:git:https://github.com/Jaydeep45/demo.git</developerConnection> <!-- URL HTTP de clone do projeto -->
-        <tag>example-0.1.0</tag>
+        <tag>@{project.version}</tag>
     </scm>
 
 
